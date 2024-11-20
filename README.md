@@ -92,7 +92,6 @@ cd examples
 cd lite
 cd examples
 ls
-ls object_detection
 cd object_detection
 cd raspberry_pi
 ls                            
