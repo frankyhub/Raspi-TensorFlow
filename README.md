@@ -34,15 +34,15 @@ TensorFlow ist ein Framework mit dem u. a. auch Objekterkennung möglich ist. Da
 
 ![Bild](/pic/raspi5.png)
 ### Raspberry Pi 5 mit RASP SHD AI und RASP CAM Ai
-
+---
 
 ![Bild](/pic/camera1.png)
 ### RASP CAM Ai am Raspberry Pi 5
-
+---
 
 ![Bild](/pic/hdmi.png)
 ### HDMI Kabel
-
+---
 
 ## Raspi in Betrieb nehmen
 Der Raspi wir ohne Betriebssystem geliefert. Der erste Schritt nach den Anschluss von Maus, Tastatur, Bildschirm und Netzteil ist das Aufspielen des Betriebssystems auf die micro SDXC Karte.
@@ -72,7 +72,7 @@ https://www.raspberrypi.com/software/
 ```sh
 libcamera-still -o test.jpg
 ```
-
+---
 
 ## TensorFlow object detection von github installieren
 
