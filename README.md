@@ -78,7 +78,7 @@ libcamera-still -o test.jpg
 
 
 ```sh
-sudo apt  -get update
+sudo apt -get update
 sudo apt -get upgrade
 
 sudo apt install python3-tflite-runtime libatlas-base-dev
