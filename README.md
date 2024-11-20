@@ -5,7 +5,7 @@
 |[:skull:ISSUE](https://github.com/frankyhub/Raspi-TensorFlow/issues?q=is%3Aissue)|[:speech_balloon: Forum /Discussion](https://github.com/frankyhub/Raspi-TensorFlow/discussions)|[:grey_question:WiKi](https://github.com/frankyhub/Raspi-TensorFlow/wiki)||
 |--|--|--|--|
 | | | | |
-|![Static Badge](https://img.shields.io/badge/RepoNr.:-%2010-blue)|<a href="https://github.com/frankyhub/Raspi-TensorFlow/issues">![GitHub issues](https://img.shields.io/github/issues/frankyhub/Raspi-TensorFlow)![GitHub closed issues](https://img.shields.io/github/issues-closed/frankyhub/Raspi-TensorFlow)|<a href="https://github.com/frankyhub/Raspi-TensorFlow/discussions">![GitHub Discussions](https://img.shields.io/github/discussions/frankyhub/Raspi-TensorFlow)|<a href="https://github.com/frankyhub/Raspi-TensorFlow/releases">![GitHub release (with filter)](https://img.shields.io/github/v/release/frankyhub/Raspi-TensorFlow)|
+|![Static Badge](https://img.shields.io/badge/RepoNr.:-%2089-blue)|<a href="https://github.com/frankyhub/Raspi-TensorFlow/issues">![GitHub issues](https://img.shields.io/github/issues/frankyhub/Raspi-TensorFlow)![GitHub closed issues](https://img.shields.io/github/issues-closed/frankyhub/Raspi-TensorFlow)|<a href="https://github.com/frankyhub/Raspi-TensorFlow/discussions">![GitHub Discussions](https://img.shields.io/github/discussions/frankyhub/Raspi-TensorFlow)|<a href="https://github.com/frankyhub/Raspi-TensorFlow/releases">![GitHub release (with filter)](https://img.shields.io/github/v/release/frankyhub/Raspi-TensorFlow)|
 |![GitHub Created At](https://img.shields.io/github/created-at/frankyhub/Raspi-TensorFlow)| <a href="https://github.com/frankyhub/Raspi-TensorFlow/pulse" alt="Activity"><img src="https://img.shields.io/github/commit-activity/m/badges/shields" />| <a href="https://github.com/frankyhub/Raspi-TensorFlow/graphs/traffic"><img alt="ViewCount" src="https://views.whatilearened.today/views/github/frankyhub/github-clone-count-badge.svg">  |<a href="https://github.com/frankyhub?tab=stars"> ![GitHub User's stars](https://img.shields.io/github/stars/frankyhub)|
 </div>
 
@@ -33,17 +33,14 @@ TensorFlow ist ein Framework mit dem u. a. auch Objekterkennung möglich ist. Da
 | ---  | ---   |
 
 ![Bild](/pic/raspi5.png)
-
 ### Raspberry Pi 5 mit RASP SHD AI und RASP CAM Ai
 
 
 ![Bild](/pic/camera1.png)
-
 ### RASP CAM Ai am Raspberry Pi 5
 
 
 ![Bild](/pic/hdmi.png)
-
 ### HDMI Kabel
 
 
