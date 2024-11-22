@@ -36,14 +36,17 @@ TensorFlow ist ein Framework mit dem u. a. auch Objekterkennung möglich ist. Da
 ### Raspberry Pi 5 mit RASP SHD AI und RASP CAM Ai
 ---
 
+
 ![Bild](/pic/camera1.png)
 ### RASP CAM Ai am Raspberry Pi 5
 ---
 
+### HDMI Kabel
+
 Benötigtes HDMI Kabel: micro HDMI (Raspi) Type D -> mini HDMI Type C Stecker (Monitor)
 
 ![Bild](/pic/hdmi.png)
-### HDMI Kabel
+
 ---
 
 ## Raspi in Betrieb nehmen
