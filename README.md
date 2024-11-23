@@ -161,7 +161,7 @@ source ~/.bashrc
 ```sh
 export PATH="/home/raspberrypi/Anaonda3/bin:$PATH" to .bashrc
 conda create --name tflite python=3.11.2
-conda activate tflite1
+conda activate tflite
 ```
 
 ## Installiere TensorFlow Lite
