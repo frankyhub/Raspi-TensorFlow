@@ -159,7 +159,11 @@ ls
 sh setup.sh
 ```
 
+## OpenCV installieren
 
+```sh
+sudo apt install python3-opencv
+```
 
 
 ## Testen der Installation
