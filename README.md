@@ -41,6 +41,37 @@ TensorFlow ist ein Framework mit dem u. a. auch Objekterkennung möglich ist. Da
 ### RASP CAM Ai am Raspberry Pi 5
 ---
 
+
+
+| Raspberry Pi 4 | Raspberry Pi 5 | 
+| -------- | -------- |
+	
+|CPU	|Broadcom BCM2711|	Broadcom BCM2712|
+| | Quad-core|	Quad-core|
+| |64-bit @ 1.8 GHz	|64-bit @ 2.4GHz|
+|GPU|	VideoCore VI @ 500 MHz|	VideoCore VII @ 800 MHz|
+| |OpenGL ES 3.1, Vulkan 1.0	OpenGL ES 3.1, Vulkan 1.2|
+|Display output|	2x Micro-HDMI	|2x Micro-HDMI|
+| |4K @ 60Hz (single display)	|4K @ 60Hz (dual displays)|
+|Memory|	LPDDR4-3200 SDRAM	|LPDDR4X-4267 SDRAM|
+| |1GB, 2GB, 4GB or 8GB	|2GB, 4GB or 8GB|
+|Network|	Wi-Fi, Bluetooth, Gigabit Ethernet	|Wi-Fi, Bluetooth, Gigabit Ethernet|
+| |PoE enabled (with HAT)	|PoE enabled (with HAT)|
+|USB ports|	2x USB 2.0|	2x USB 2.0|
+| |2x USB 3.0 |	2x USB 3.0 @ 5Gbps|
+|Other connectors	|40 pin GPIO header	|40-pin GPIO header|
+| |2-lane MIPI DSI display port	|2-lane MIPI DSI display port|
+| |2-lane MIPI CSI camera port	|2-lane MIPI CSI camera port|
+| |Stereo audio and composite video port	|Stereo audio and composite video port|
+|Storage	|Micro-SD card slot|	Micro-SD card slot|
+| | |M.2 SSD support (with HAT)|
+|Power requirements	|5V/3A via USB-C (15W)|	5V/5A via USB-C (27W)|
+|Special features| – |		Power button|
+| | | Real-time clock (RTC)|
+| | |UART debug port|
+
+			
+
 ### HDMI Kabel
 
 Benötigtes HDMI Kabel: micro HDMI (Raspi) Type D -> mini HDMI Type C Stecker (Monitor)
@@ -78,6 +109,92 @@ https://www.raspberrypi.com/software/
 libcamera-still -o test.jpg
 ```
 ---
+
+## Anaconda herunterladen
+
+```sh
+cd /tmp
+wget https://repo.anaconda.com/archive/Anaconda3-2023.03-1-Linux-aarch64.sh![image](https://github.com/user-attachments/assets/fdc57f67-171b-43db-8012-5e5811f5f13f)
+```
+
+## Anaconda installieren
+
+```sh
+bash Anaconda3-2023.03-1-Linux-aarch64.sh
+```
+
+Folge den Anweisungen auf dem Bildschirm (meistens mit Enter bestätigen und am Ende den Lizenzbedingungen zustimmen). Der Standardinstallationspfad ist normalerweise in deinem Home-Verzeichnis (/home/pi/anaconda3).
+
+## Anaconda aktivieren
+
+```sh
+source ~/.bashrc
+```
+
+## Eine virtuelle Umgebung erstellen
+
+```sh
+conda create --name tflite_env python=3.9
+conda activate tflite_env!
+```
+
+## Installiere TensorFlow Lite
+
+```sh
+pip install tflite-runtime
+```
+
+tflite-runtime ist eine leichtere Version von TensorFlow, die speziell für das Ausführen von TensorFlow Lite Modellen auf Edge-Geräten wie dem Raspberry Pi entwickelt wurde![image](https://github.com/user-attachments/assets/7921b7e1-b9b4-4365-8e9a-d3275ad5cc0c)
+
+
+## Testen der Installation
+
+Um sicherzustellen, dass TensorFlow Lite korrekt installiert wurde, kannst du ein einfaches Python-Skript verwenden, um die Installation zu überprüfen:
+		
+python
+
+import tflite_runtime.interpreter as tflite
+interpreter = tflite.Interpreter(model_path="dein_model.tflite")
+interpreter.allocate_tensors()
+print("TensorFlow Lite Interpreter wurde erfolgreich geladen!")
+
+## Zusätzliche Tools für TensorFlow Lite (Optional) 
+
+Falls du TensorFlow Lite-Modelle auf deinem Raspberry Pi konvertieren möchtest, kannst du das TensorFlow Lite-Konvertierungstool installieren:
+
+```sh
+pip install tensorflow
+```
+
+Dies ermöglicht es dir, TensorFlow-Modelle in das .tflite-Format zu konvertieren, das dann auf dem Raspberry Pi verwendet werden kann.
+
+## Deaktivieren der Umgebung
+
+```sh
+conda deactivate
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## TensorFlow object detection von github installieren
 
