@@ -100,6 +100,17 @@ https://www.raspberrypi.com/software/
 
 ![Bild](/pic/Flash14.png)
 
+## Ubuntu – Update und Upgrade
+
+```sh
+sudo apt update && sudo apt upgrade -y
+```
+
+## Linux Standard Base - Versionsabfrage
+
+```sh
+lsb_release -a
+```
 
 ## Kamera Test
 
