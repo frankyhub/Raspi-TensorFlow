@@ -118,7 +118,7 @@ lsb_release -a
 
 ```sh
 libcamera-still -o test.jpg
-libcamera-hello --List-cameras
+rpicam-still --List-cameras
 ```
 ![Bild](/pic/libcamera.png)
 
@@ -156,12 +156,10 @@ Der Standardinstallationspfad ist normalerweise in deinem Home-Verzeichnis (/hom
 source ~/.bashrc
 ```
 
-## Eine virtuelle Umgebung erstellen
+## OpenCV installieren
 
 ```sh
-export PATH="/home/raspberrypi/Anaonda3/bin:$PATH" to .bashrc
-conda create --name tflite python=3.11.2
-conda activate tflite
+sudo apt install python3-opencv
 ```
 
 ## Installiere TensorFlow Lite
@@ -182,12 +180,13 @@ ls
 sh setup.sh
 ```
 
-## OpenCV installieren
+## Eine virtuelle Umgebung erstellen
 
 ```sh
-sudo apt install python3-opencv
+export PATH="/home/raspberrypi/Anaonda3/bin:$PATH" to .bashrc
+conda create --name tflite python=3.11.2
+conda activate tflite
 ```
-
 
 ## Testen der Installation
 
