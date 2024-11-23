@@ -110,15 +110,17 @@ libcamera-still -o test.jpg
 
 ## Anaconda herunterladen
 
+Versions-Kontrolle: https://repo.anaconda.com/archive/
+ 
 ```sh
 cd /tmp
-wget https://repo.anaconda.com/archive/Anaconda3-2023.03-1-Linux-aarch64.sh![image](https://github.com/user-attachments/assets/fdc57f67-171b-43db-8012-5e5811f5f13f)
+wget https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Linux-aarch64.sh
 ```
 
 ## Anaconda installieren
 
 ```sh
-bash Anaconda3-2023.03-1-Linux-aarch64.sh
+bash Anaconda3-2024.10-1-Linux-aarch64.sh
 ```
 
 Folge den Anweisungen auf dem Bildschirm (meistens mit Enter bestätigen und am Ende den Lizenzbedingungen zustimmen). Der Standardinstallationspfad ist normalerweise in deinem Home-Verzeichnis (/home/pi/anaconda3).
