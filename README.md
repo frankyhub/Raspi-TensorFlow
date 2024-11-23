@@ -137,14 +137,26 @@ source ~/.bashrc
 
 ```sh
 export PATH="/home/raspberrypi/Anaonda3/bin:$PATH" to .bashrc
-conda create --name tflite_env python=3.11.2
-conda activate tflite_env
+conda create --name tflite1 python=3.11.2
+conda activate tflite1
 ```
 
 ## Installiere TensorFlow Lite
 
 ```sh
-pip install tflite-runtime
+mkdir tfLite 1
+cd tfLite1
+ls
+git clone https://github.com/tensorflow/examples --depth 1
+
+cd examples
+cd lite
+cd examples
+ls
+cd object_detection
+cd raspberry_pi
+ls                            
+sh setup.sh
 ```
 
 tflite-runtime ist eine leichtere Version von TensorFlow, die speziell für das Ausführen von TensorFlow Lite Modellen auf Edge-Geräten wie dem Raspberry Pi entwickelt wurde
@@ -167,15 +179,7 @@ print("TensorFlow Lite Interpreter wurde erfolgreich geladen!")
 
 ```
 
-## Zusätzliche Tools für TensorFlow Lite (Optional) 
 
-Falls du TensorFlow Lite-Modelle auf deinem Raspberry Pi konvertieren möchtest, kannst du das TensorFlow Lite-Konvertierungstool installieren:
-
-```sh
-pip install tensorflow
-```
-
-Dies ermöglicht es dir, TensorFlow-Modelle in das .tflite-Format zu konvertieren, das dann auf dem Raspberry Pi verwendet werden kann.
 
 ## Deaktivieren der Umgebung
 
