@@ -17,30 +17,8 @@ Objekterkennung mit TensorFlow
 ## Story
 TensorFlow ist ein Framework mit dem u. a. auch Objekterkennung möglich ist. Das Repo eschreibt den Aufbau mit einem Raspberry Pi 5.
 
-## Hardware
-| Anzahl | Bezeichnung | 
-|  -------- | -------- | 
-|  1 | Raspi5 8GB Starter Kid  |
-| 1  | Micro SDXC Karte 64GB 140MB/s! (opt.)  |
-|  1 |  RASP CAM AI Raspberry Pi - Kamera, KI (AI), 12MP  |
-|  1 |  RASP SHD AI 26 Raspberry Pi Shield - AI (KI) 26 TOPS, Raspberry Pi 5 (opt.)  |
-| 1  | USB Maus   |
-| 1  | USB Tatsatur   |
-|  1 |Monitor 10“ mini HDMI Type C   |
-|  1 |  HDMI Kabel (mini HDMI Type C Stecker -> micro HDMI (Raspi) Type D Stecker) |
-|  1 |   HDMI -> HDMI mini Adapter (opt.) |
-| ---  | ---   |
 
-![Bild](/pic/raspi5.png)
-### Raspberry Pi 5 mit RASP SHD AI und RASP CAM Ai
----
-
-
-![Bild](/pic/camera1.png)
-### RASP CAM Ai am Raspberry Pi 5
----
-
-
+## Vergleich Raspberry Pi 4 - Raspberry Pi 5
 
 |   | Raspberry Pi 4 | Raspberry Pi 5 | 
 | -------- | -------- | --------|  	
@@ -68,7 +46,29 @@ TensorFlow ist ein Framework mit dem u. a. auch Objekterkennung möglich ist. Da
 | | | Real-time clock (RTC)|
 | | |UART debug port|
 
-			
+## Hardware
+| Anzahl | Bezeichnung | 
+|  -------- | -------- | 
+|  1 | Raspi5 8GB Starter Kid  |
+| 1  | Micro SDXC Karte 64GB 140MB/s! (opt.)  |
+|  1 |  RASP CAM AI Raspberry Pi - Kamera, KI (AI), 12MP  |
+|  1 |  RASP SHD AI 26 Raspberry Pi Shield - AI (KI) 26 TOPS, Raspberry Pi 5 (opt.)  |
+| 1  | USB Maus   |
+| 1  | USB Tatsatur   |
+|  1 |Monitor 10“ mini HDMI Type C   |
+|  1 |  HDMI Kabel (mini HDMI Type C Stecker -> micro HDMI (Raspi) Type D Stecker) |
+|  1 |   HDMI -> HDMI mini Adapter (opt.) |
+| ---  | ---   |
+
+![Bild](/pic/raspi5.png)
+### Raspberry Pi 5 mit RASP SHD AI und RASP CAM Ai
+---
+
+
+![Bild](/pic/camera1.png)
+### RASP CAM Ai am Raspberry Pi 5
+---
+		
 
 ### HDMI Kabel
 
