@@ -1,0 +1,36 @@
+
+
+
+sudo apt-get update
+sudo apt-get upgrade
+
+mkdir Python
+cd Python
+
+mkdir tLite
+cd tLite
+
+git clone https://github.com/tensorflow/examples --depth 1
+
+cd examples
+cd lite
+cd examples
+cd object_detection
+cd raspbarry_pi
+
+sh setup.sh
+
+mv efficentdet_lite0.tflite ~/Python
+mv utils.py ~/Python
+
+cd ~
+cd Python
+
+Erstelle detect.py
+
+Cameratyp:
+v4l2-ctl --list-devices
+
+
+
+
