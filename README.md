@@ -124,12 +124,6 @@ rpicam-still --List-cameras
 
 ---
 
-## Kamera Type
-
-```sh
-v4l2-ctl --list-devices
-```
----
 
 ## Anaconda herunterladen
 
