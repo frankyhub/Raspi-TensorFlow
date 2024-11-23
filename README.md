@@ -119,6 +119,13 @@ libcamera-still -o test.jpg
 ```
 ---
 
+## Kamera Type
+
+```sh
+v4l2-ctl --list-devices
+```
+---
+
 ## Anaconda herunterladen
 
 Versions-Kontrolle: https://repo.anaconda.com/archive/
