@@ -124,7 +124,8 @@ wget https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Linux-aarch64.sh
 bash Anaconda3-2024.10-1-Linux-aarch64.sh
 ```
 
-Folge den Anweisungen auf dem Bildschirm (meistens mit Enter bestätigen und am Ende den Lizenzbedingungen zustimmen). Der Standardinstallationspfad ist normalerweise in deinem Home-Verzeichnis (/home/pi/anaconda3).
+Folge den Anweisungen auf dem Bildschirm (meistens mit Enter bestätigen und am Ende den Lizenzbedingungen mit yes zustimmen). 
+Der Standardinstallationspfad ist normalerweise in deinem Home-Verzeichnis (/home/pi/anaconda3).
 
 ## Anaconda aktivieren
 
