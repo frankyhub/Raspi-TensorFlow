@@ -159,7 +159,7 @@ ls
 sh setup.sh
 ```
 
-tflite-runtime ist eine leichtere Version von TensorFlow, die speziell für das Ausführen von TensorFlow Lite Modellen auf Edge-Geräten wie dem Raspberry Pi entwickelt wurde
+
 
 
 ## Testen der Installation
