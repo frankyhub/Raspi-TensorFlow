@@ -113,6 +113,7 @@ libcamera-still -o test.jpg
 Versions-Kontrolle: https://repo.anaconda.com/archive/
  
 ```sh
+mkdir tmp
 cd /tmp
 wget https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Linux-aarch64.sh
 ```
