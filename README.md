@@ -111,12 +111,16 @@ sudo apt update && sudo apt upgrade -y
 ```sh
 lsb_release -a
 ```
+![Bild](/pic/libcamera.png)
+
 
 ## Kamera Test
 
 ```sh
 libcamera-still -o test.jpg
 ```
+
+
 ---
 
 ## Kamera Type
