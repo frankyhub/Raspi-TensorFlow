@@ -148,13 +148,19 @@ tflite-runtime ist eine leichtere Version von TensorFlow, die speziell für das 
 ## Testen der Installation
 
 Um sicherzustellen, dass TensorFlow Lite korrekt installiert wurde, kannst du ein einfaches Python-Skript verwenden, um die Installation zu überprüfen:
-		
+
+  ```sh
 python
 
 import tflite_runtime.interpreter as tflite
+
 interpreter = tflite.Interpreter(model_path="dein_model.tflite")
+
 interpreter.allocate_tensors()
+
 print("TensorFlow Lite Interpreter wurde erfolgreich geladen!")
+
+```
 
 ## Zusätzliche Tools für TensorFlow Lite (Optional) 
 
