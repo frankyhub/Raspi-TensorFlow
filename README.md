@@ -144,8 +144,8 @@ conda activate tflite1
 ## Installiere TensorFlow Lite
 
 ```sh
-mkdir tfLite 1
-cd tfLite1
+mkdir tfLite
+cd tfLite
 ls
 git clone https://github.com/tensorflow/examples --depth 1
 
