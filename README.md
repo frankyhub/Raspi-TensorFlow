@@ -142,7 +142,7 @@ conda activate tflite_env!
 pip install tflite-runtime
 ```
 
-tflite-runtime ist eine leichtere Version von TensorFlow, die speziell für das Ausführen von TensorFlow Lite Modellen auf Edge-Geräten wie dem Raspberry Pi entwickelt wurde![image](https://github.com/user-attachments/assets/7921b7e1-b9b4-4365-8e9a-d3275ad5cc0c)
+tflite-runtime ist eine leichtere Version von TensorFlow, die speziell für das Ausführen von TensorFlow Lite Modellen auf Edge-Geräten wie dem Raspberry Pi entwickelt wurde
 
 
 ## Testen der Installation
@@ -172,52 +172,6 @@ Dies ermöglicht es dir, TensorFlow-Modelle in das .tflite-Format zu konvertiere
 conda deactivate
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## TensorFlow object detection von github installieren
-
-
-```sh
-sudo apt -get update
-sudo apt -get upgrade
-
-sudo apt install python3-tflite-runtime libatlas-base-dev
-
-mkdir tLite 
-cd tLite
-ls
-git clone https://github.com/tensorflow/examples --depth 1
-
-cd examples
-cd lite
-cd examples
-ls
-cd object_detection
-cd raspberry_pi
-ls                            
-sh setup.sh
-
-```
 ## Beispiele
 
 https://github.com/sglvladi/TensorFlowObjectDetectionTutorial/tree/master/docs/source/auto_examples
