@@ -135,7 +135,7 @@ source ~/.bashrc
 
 ```sh
 conda create --name tflite_env python=3.9
-conda activate tflite_env!
+conda activate tflite_env
 ```
 
 ## Installiere TensorFlow Lite
