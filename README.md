@@ -216,6 +216,8 @@ conda deactivate
 
 ## Beispiele
 
+https://github.com/tensorflow/examples/tree/master/lite/examples/object_detection/raspberry_pi
+
 https://github.com/sglvladi/TensorFlowObjectDetectionTutorial/tree/master/docs/source/auto_examples
 
 ---
