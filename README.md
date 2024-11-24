@@ -178,6 +178,7 @@ sh setup.sh
 ## Eine virtuelle Umgebung erstellen
 
 ```sh
+python3 -m venv venv
 export PATH="/home/raspberrypi/Anaonda3/bin:$PATH" to .bashrc
 conda create --name tflite python=3.11.2
 conda activate tflite
