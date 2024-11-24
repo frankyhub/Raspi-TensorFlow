@@ -118,7 +118,7 @@ lsb_release -a
 
 ```sh
 libcamera-still -o test.jpg
-rpicam-still --List-cameras
+libcamera-hello --List-cameras
 ```
 ![Bild](/pic/libcamera.png)
 
