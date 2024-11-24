@@ -16,7 +16,7 @@ cd examples
 cd lite
 cd examples
 cd object_detection
-cd raspbarry_pi
+cd raspberry_pi
 
 sh setup.sh
 
