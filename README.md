@@ -145,6 +145,7 @@ Folge den Anweisungen auf dem Bildschirm (meistens mit Enter bestätigen und am 
 Der Standardinstallationspfad ist normalerweise in deinem Home-Verzeichnis (/home/pi/anaconda3).
 
 ## Anaconda aktivieren
+Starte das Termnal neu.
 
 ```sh
 source ~/.bashrc
