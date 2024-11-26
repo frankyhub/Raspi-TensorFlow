@@ -2,7 +2,7 @@
 
 <div align="center">
 
-|[:skull:ISSUE](https://github.com/frankyhub/Raspi-TensorFlow/issues?q=is%3Aissue)|[:speech_balloon: Forum /Discussion](https://github.com/frankyhub/Raspi-TensorFlow/discussions)|[:grey_question:WiKi](https://github.com/frankyhub/Raspi-TensorFlow/wiki)||
+|[:skull:ISSUE](https://github.com/frankyhub/Raspi-TensorFlow/issues?q=is%3Aissue)|[:speech_balloon: Forum /Discussion](https://github.com/frankyhub/Raspi-TensorFlow/discussions)|[:grey_question:WiKi](https://github.com/frankyhub/Raspi-TensorFlow[/wiki](https://github.com/frankyhub/Raspi-TensorFlow/wiki/Linux%E2%80%90Befehle))||
 |--|--|--|--|
 | | | | |
 |![Static Badge](https://img.shields.io/badge/RepoNr.:-%2089-blue)|<a href="https://github.com/frankyhub/Raspi-TensorFlow/issues">![GitHub issues](https://img.shields.io/github/issues/frankyhub/Raspi-TensorFlow)![GitHub closed issues](https://img.shields.io/github/issues-closed/frankyhub/Raspi-TensorFlow)|<a href="https://github.com/frankyhub/Raspi-TensorFlow/discussions">![GitHub Discussions](https://img.shields.io/github/discussions/frankyhub/Raspi-TensorFlow)|<a href="https://github.com/frankyhub/Raspi-TensorFlow/releases">![GitHub release (with filter)](https://img.shields.io/github/v/release/frankyhub/Raspi-TensorFlow)|
