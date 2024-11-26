@@ -114,7 +114,7 @@ lsb_release -a
 
 
 
-## Kamera Test
+## Kamera Test 1
 
 ```sh
 libcamera-still -o test.jpg
@@ -124,7 +124,10 @@ libcamera-hello --list-cameras
 
 ---
 
-ˋˋˋsh
+## Kamera Test 2
+
+
+```sh
 import cv2
 from picamera2 import Picamera2
 piCam=Picamera2()
@@ -139,8 +142,9 @@ while True:
     if cv2.waitKey(1)==ord('q'):
         break
 cv2.desroyAllWindows()
-ˋˋˋ
+```
 
+---
 
 ## Anaconda herunterladen
 
@@ -167,12 +171,14 @@ Starte das Termnal neu.
 ```sh
 source ~/.bashrc
 ```
+---
 
 ## OpenCV installieren
 
 ```sh
 sudo apt install python3-opencv
 ```
+---
 
 ## Installiere TensorFlow Lite
 
