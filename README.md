@@ -128,6 +128,8 @@ libcamera-hello --list-cameras
 
 
 ```sh
+Python
+
 import cv2
 from picamera2 import Picamera2
 piCam=Picamera2()
