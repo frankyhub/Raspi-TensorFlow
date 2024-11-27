@@ -50,7 +50,7 @@ TensorFlow ist ein Framework mit dem u. a. auch Objekterkennung möglich ist. Da
 | Anzahl | Bezeichnung | 
 |  -------- | -------- | 
 |  1 | Raspi5 8GB Starter Kid  |
-| 1  | Micro SDXC Karte 64GB 140MB/s! (opt.)  |
+| 1  | Micro SDXC Karte 64GB 140MB/s (opt.)  |
 |  1 |  RASP CAM AI Raspberry Pi - Kamera, KI (AI), 12MP  |
 |  1 |  RASP SHD AI 26 Raspberry Pi Shield - AI (KI) 26 TOPS, Raspberry Pi 5 (opt.)  |
 | 1  | USB Maus   |
