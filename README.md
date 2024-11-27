@@ -155,6 +155,9 @@ while True:
 cv2.desroyAllWindows()
 ```
 
+![Bild](/pic/cameratest2.png)
+
+
 ---
 
 ## Installiere TensorFlow Lite
