@@ -133,8 +133,10 @@ python3 --version
 bash
 
 sudo apt install python3-opencv
-
+```
+```sh
 Python
+
 import cv2
 cv2.__version__
 
