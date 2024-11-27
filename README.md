@@ -103,18 +103,35 @@ https://www.raspberrypi.com/software/
 ## Ubuntu – Update und Upgrade
 
 ```sh
+bash
+
 sudo apt update && sudo apt upgrade -y
 ```
 
 ## Linux Standard Base - Versionsabfrage
 
 ```sh
+bash
+
 lsb_release -a
 ```
+
+## Python3 installieren
+
+```sh
+bash
+
+sudo apt install python3
+python3 --version
+
+```
+---
 
 ## OpenCV installieren
 
 ```sh
+bash
+
 sudo apt install python3-opencv
 
 Python
@@ -127,6 +144,8 @@ cv2.__version__
 ## Kamera Test 1
 
 ```sh
+bash
+
 libcamera-still -o test.jpg
 libcamera-hello --list-cameras
 ```
@@ -163,6 +182,8 @@ cv2.desroyAllWindows()
 ## Installiere TensorFlow Lite
 
 ```sh
+bash
+
 mkdir tfLite
 cd tfLite
 ls
@@ -182,6 +203,8 @@ sh setup.sh
 ## detect.py
 
 ```sh
+Python
+
 import cv2
 import time
 from picamera2 import Picamera2
@@ -249,6 +272,8 @@ cv2.destroyAllWindows()
 Versions-Kontrolle: https://repo.anaconda.com/archive/
  
 ```sh
+bash
+
 mkdir tmp
 cd /tmp
 wget https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Linux-aarch64.sh
@@ -257,7 +282,9 @@ wget https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Linux-aarch64.sh
 ## Anaconda installieren
 
 ```sh
-bash Anaconda3-2024.10-1-Linux-aarch64.sh
+bash
+
+Anaconda3-2024.10-1-Linux-aarch64.sh
 ```
 
 Folge den Anweisungen auf dem Bildschirm (meistens mit Enter bestätigen und am Ende den Lizenzbedingungen mit yes zustimmen). 
@@ -267,6 +294,8 @@ Der Standardinstallationspfad ist normalerweise in deinem Home-Verzeichnis (/hom
 Starte das Termnal neu.
 
 ```sh
+bash
+
 source ~/.bashrc
 ```
 ---
@@ -275,6 +304,8 @@ source ~/.bashrc
 ## Eine virtuelle Umgebung erstellen
 
 ```sh
+Python
+
 python3 -m venv venv
 export PATH="/home/raspberrypi/Anaonda3/bin:$PATH" to .bashrc
 conda create --name tflite python=3.11.2
@@ -286,7 +317,7 @@ conda activate tflite
 Um sicherzustellen, dass TensorFlow Lite korrekt installiert wurde, kannst du ein einfaches Python-Skript verwenden, um die Installation zu überprüfen:
 
   ```sh
-python
+Python
 
 import tflite_runtime.interpreter as tflite
 
@@ -303,6 +334,8 @@ print("TensorFlow Lite Interpreter wurde erfolgreich geladen!")
 ## Deaktivieren der Umgebung
 
 ```sh
+bash
+
 conda deactivate
 ```
 
