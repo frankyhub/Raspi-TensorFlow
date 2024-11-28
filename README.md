@@ -350,6 +350,11 @@ https://github.com/sglvladi/TensorFlowObjectDetectionTutorial/tree/master/docs/s
 
 ![Bild](/pic/clock.png)
 
+![Bild](/pic/sunglasses.png)
+
+![Bild](/pic/max.png)
+
+:-) :-) :-) :-) 
 
 ---
 
