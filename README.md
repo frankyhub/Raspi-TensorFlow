@@ -346,6 +346,13 @@ https://github.com/sglvladi/TensorFlowObjectDetectionTutorial/tree/master/docs/s
 
 ---
 
+![Bild](/pic/mouse.png)
+
+![Bild](/pic/clock.png)
+
+
+---
+
 <div style="position:absolute; left:2cm; ">   
 <ol class="breadcrumb" style="border-top: 2px solid black;border-bottom:2px solid black; height: 45px; width: 900px;"> <p align="center"><a href="#oben">nach oben</a></p></ol>
 </div>  
