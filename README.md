@@ -102,52 +102,51 @@ https://www.raspberrypi.com/software/
 
 ## Ubuntu – Update und Upgrade
 
-```sh
 bash
 
+```sh
 sudo apt update && sudo apt upgrade -y
 ```
 
 ## Linux Standard Base - Versionsabfrage
 
-```sh
 bash
 
+```sh
 lsb_release -a
 ```
 
 ## Python3 installieren
 
-```sh
 bash
 
+```sh
 sudo apt install python3
 python3 --version
-
 ```
 ---
 
 ## OpenCV installieren
 
-```sh
 bash
 
+```sh
 sudo apt install python3-opencv
 ```
-```sh
+
 Python
 
+```sh
 import cv2
 cv2.__version__
-
 ```
 ---
 
 ## Kamera Test 1
 
-```sh
 bash
 
+```sh
 libcamera-still -o test.jpg
 libcamera-hello --list-cameras
 ```
@@ -157,9 +156,9 @@ libcamera-hello --list-cameras
 
 ## Kamera Test 2
 
-```sh
 Python
 
+```sh
 import cv2
 from picamera2 import Picamera2
 piCam=Picamera2()
@@ -178,14 +177,13 @@ cv2.desroyAllWindows()
 
 ![Bild](/pic/cameratest2.png)
 
-
 ---
 
 ## Installiere TensorFlow Lite
 
-```sh
 bash
 
+```sh
 mkdir tfLite
 cd tfLite
 ls
@@ -204,9 +202,9 @@ sh setup.sh
 
 ## detect.py
 
-```sh
 Python
 
+```sh
 import cv2
 import time
 from picamera2 import Picamera2
@@ -266,26 +264,29 @@ while True:
     #print(fps)
     tStart=time.time()
 cv2.destroyAllWindows()
-
 ```
 
 ## Anaconda herunterladen
 
 Versions-Kontrolle: https://repo.anaconda.com/archive/
+
+bash
  
 ```sh
-bash
-
 mkdir tmp
 cd /tmp
 wget https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Linux-aarch64.sh
 ```
 
+---
+---
+
+
 ## Anaconda installieren
 
-```sh
 bash
 
+```sh
 Anaconda3-2024.10-1-Linux-aarch64.sh
 ```
 
@@ -295,9 +296,9 @@ Der Standardinstallationspfad ist normalerweise in deinem Home-Verzeichnis (/hom
 ## Anaconda aktivieren
 Starte das Termnal neu.
 
-```sh
 bash
 
+```sh
 source ~/.bashrc
 ```
 ---
@@ -305,9 +306,9 @@ source ~/.bashrc
 
 ## Eine virtuelle Umgebung erstellen
 
-```sh
 Python
 
+```sh
 python3 -m venv venv
 export PATH="/home/raspberrypi/Anaonda3/bin:$PATH" to .bashrc
 conda create --name tflite python=3.11.2
@@ -318,26 +319,22 @@ conda activate tflite
 
 Um sicherzustellen, dass TensorFlow Lite korrekt installiert wurde, kannst du ein einfaches Python-Skript verwenden, um die Installation zu überprüfen:
 
-  ```sh
 Python
 
+  ```sh
 import tflite_runtime.interpreter as tflite
-
 interpreter = tflite.Interpreter(model_path="dein_model.tflite")
-
 interpreter.allocate_tensors()
-
 print("TensorFlow Lite Interpreter wurde erfolgreich geladen!")
-
 ```
 
 
 
 ## Deaktivieren der Umgebung
 
-```sh
 bash
 
+```sh
 conda deactivate
 ```
 
