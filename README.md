@@ -348,6 +348,8 @@ https://github.com/sglvladi/TensorFlowObjectDetectionTutorial/tree/master/docs/s
 
 ![Bild](/pic/mouse.png)
 
+![Bild](/pic/bottle.png)
+
 ![Bild](/pic/clock.png)
 
 ![Bild](/pic/sunglasses.png)
