@@ -266,6 +266,9 @@ while True:
 cv2.destroyAllWindows()
 ```
 
+---
+---
+
 ## Anaconda herunterladen
 
 Versions-Kontrolle: https://repo.anaconda.com/archive/
@@ -278,7 +281,6 @@ cd /tmp
 wget https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Linux-aarch64.sh
 ```
 
----
 ---
 
 
