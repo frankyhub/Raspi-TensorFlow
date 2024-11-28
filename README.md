@@ -80,7 +80,7 @@ Benötigtes HDMI Kabel: micro HDMI (Raspi) Type D -> mini HDMI Type C Stecker (M
 
 ## Raspi in Betrieb nehmen
 Der Raspi wir ohne Betriebssystem geliefert. Der erste Schritt nach den Anschluss von Maus, Tastatur, Bildschirm und Netzteil ist das Aufspielen des Betriebssystems auf die micro SDXC Karte.
-Der einfachste Weg ist den Raspi mit dem Router zu verbinden. Der Installationsvorgang startet dann automitisch.
+Der einfachste Weg ist den Raspi mit dem Router zu verbinden. Der Installationsvorgang startet dann automatisch.
 
 ![Bild](/pic/flash1.png)
 
