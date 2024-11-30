@@ -1,6 +1,3 @@
-TensorFlow Lite Object Recognition
-https://cdn-learn.adafruit.com/downloads/pdf/running-tensorflow-lite-on-the-raspberry-pi-4.pdf
-
 Image Installation:
 
 Select the 64-bit Raspberry Pi OS Bullseye
