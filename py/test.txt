@@ -1,0 +1,107 @@
+TensorFlow Lite Object Recognition
+https://cdn-learn.adafruit.com/downloads/pdf/running-tensorflow-lite-on-the-raspberry-pi-4.pdf
+
+Image Installation:
+
+Select the 64-bit Raspberry Pi OS Bullseye
+ Desktop image by going to Raspberry Pi
+ OS (Other) → Raspberry Pi OS (64-bit).
+
+https://www.raspberrypi.com/software/
+
+---
+Update the Raspberry Pi
+
+ sudo apt update
+
+ sudo apt upgrade -y
+
+ sudo apt install -y python3-pip
+
+ sudo apt install --upgrade -y python3-setuptools
+
+---
+Setup Virtual Environment
+
+ sudo apt install python3.11-venv
+
+ python -m venv env --system-site-packages
+
+ source env/bin/activate
+
+---
+Upgrade Script
+
+ cd ~
+
+ sudo pip3 install --upgrade adafruit-python-shell
+
+ wget https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/raspi-blinka.py
+
+sudo python3 raspi-blinka.py
+---
+
+reboot
+
+---
+Camera Test
+
+ libcamera-hello -t 0
+
+Press Ctrl+C to exit the test.
+
+---
+TensorFlow 2 Setup
+
+sudo apt install -y python3-numpy python3-pillow python3-pygame
+
+sudo apt install -y festival
+
+---
+ Install rpi-vision
+ cd ~
+ source env/bin/activate
+
+(env)
+
+git clone --depth 1 https://github.com/adafruit/rpi-vision.git
+
+cd rpi-vision
+
+pip3 install -e .
+
+---
+ Install TensorFlow 2.x
+
+ RELEASE=https://github.com/PINTO0309/Tensorflow-bin/releases/download/v2.15.0.post1/ tensorflow-2.15.0.post1-cp311-none-linux_aarch64.whl
+
+ CPVER=$(python --version | grep-Eo '3\.[0-9]{1,2}' | tr-d '.')
+
+ pip install $(echo "$RELEASE" | sed-e "s/cp[0-9]\{3\}/CP$CPVER/g")
+
+ sudo reboot
+
+---
+ source env/bin/activate
+
+(env)
+
+ cd rpi-vision
+
+python3 tests/pitft_labeled_output.py --tflite
+
+python3 tests/start.py --tflite
+---
+
+If you get a warning with "No module named 'rpi_vision'", this means Python 
+couldn't load the module. Either the module or the Python binding likely wasn't 
+installed correctly.
+
+--------------------------------------------------------------------------------------
+
+
+
+
+
+
+
