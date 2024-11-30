@@ -70,9 +70,9 @@ pip3 install -e .
 ---
  Install TensorFlow 2.x
 
- RELEASE=https://github.com/PINTO0309/Tensorflow-bin/releases/download/v2.15.0.post1/ tensorflow-2.15.0.post1-cp311-none-linux_aarch64.whl
+ RELEASE=https://github.com/PINTO0309/Tensorflow-bin/releases/download/v2.15.0.post1/tensorflow-2.15.0.post1-cp311-none-linux_aarch64.whl
 
- CPVER=$(python --version | grep-Eo '3\.[0-9]{1,2}' | tr-d '.')
+ CPVER=$(python --version | grep -Eo '3\.[0-9]{1,2}' | tr -d '.')
 
  pip install $(echo "$RELEASE" | sed-e "s/cp[0-9]\{3\}/CP$CPVER/g")
 
