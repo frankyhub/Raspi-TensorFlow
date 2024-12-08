@@ -356,6 +356,8 @@ https://github.com/sglvladi/TensorFlowObjectDetectionTutorial/tree/master/docs/s
 
 ![Bild](/pic/schreibtisch1.png)
 
+![Bild](/pic/clock2.png)
+
 ---
 
 <div style="position:absolute; left:2cm; ">   
