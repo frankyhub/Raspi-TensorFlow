@@ -354,6 +354,7 @@ https://github.com/sglvladi/TensorFlowObjectDetectionTutorial/tree/master/docs/s
 
 ![Bild](/pic/ipod.png)
 
+![Bild](/pic/schreibtisch1.png)
 
 ---
 
